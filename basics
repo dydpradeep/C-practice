@@ -1,5 +1,6 @@
-#include <stdio.h>
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#include <stdio.h>
 int main()
 {
     char characterName[]="Pradeep";
@@ -12,13 +13,11 @@ int main()
     printf("Are you really %s\n",characterName);
     printf("but did not like being %d\n",age);
     
-    
-
     return 0;
 }
 
 
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #include <stdio.h>
 
@@ -30,14 +29,9 @@ int main()
     char grade = 'A';//Now i can store only one char,but AJJHI 
     char phrase[] = "My Acadamy";//this is special char
     
-    
-    
-    
-    
-
     return 0;
 }
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -71,7 +65,7 @@ Your C marks 90.500000
 12.000000
 40.000000
 39.000000
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -85,7 +79,7 @@ int main()
     return 0;
 }
 
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -102,7 +96,7 @@ int main()
 Output:-
 5
 8
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -120,7 +114,7 @@ int main()
 Output:-
 Enter your gpa: 8.5
 Your gpa 8.500000 
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -138,7 +132,7 @@ int main()
 Output:-
 Enter your grade: A
 Your grade A 
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -156,7 +150,7 @@ int main()
 Output:-
 Enter your Name: Pradeep
 Your Name Pradeep 
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -175,3 +169,60 @@ Output:-
 Enter your Name: Pradeep dyd
 Your Name: Pradeep dyd
  New line char
+ 
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+//C basic adding
+
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+    double num1;
+    double num2;
+    printf("Enter first number: ");
+    scanf("%lf",&num1);
+    printf("Enter second number: ");
+    scanf("%lf",&num2);
+    printf("Answer: %lf",num1+num2);
+
+    return 0;
+}
+
+Output:-
+Enter first number: 2.5
+Enter second number: 2.5
+Answer: 5.000000
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char color[20];
+    char sky[10];
+    char celebrityF[30];
+    char celebrityL[30];
+    
+    printf("Enter color of Roses = ");
+    scanf("%s",color);//%s is used to store string value ,for string we didnot need to mention "&"
+    printf("Enter sky here = ");
+    scanf("%s",sky);
+    printf("Enter your favorite celebrity = ");
+    scanf("%s%s",celebrityF,celebrityL);//you also use fgets(celebrity,60,stdin) function
+    
+    printf("Roses are %s\n",color);
+    printf("%s is blue\n",sky);
+    printf("I love %s %s",celebrityF,celebrityL);
+    
+}
+
+Output:-
+Enter color of Roses = red]
+Enter sky here = sky
+Enter your favorite celebrity = Pradeep Durga
+Roses are red
+sky is blue
+I love Pradeep Durga
+
