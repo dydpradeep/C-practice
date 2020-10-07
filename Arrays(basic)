@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main()
+{
+    int luckyNumbers[10] = {4,8,15,16,23,42};
+    luckyNumbers[2]=29;
+    printf("%d\n", luckyNumbers[1] );
+    printf("%d", luckyNumbers[2] );
+    return 0;
+}
+
+Output:-
+8
+29
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#include <stdio.h>
+
+int main()
+{
+    int luckyNumbers[10];
+    luckyNumbers[1]=10;
+    luckyNumbers[2]=29;
+    printf("%d\n", luckyNumbers[1] );
+    printf("%d", luckyNumbers[2] );
+    return 0;
+}
+
+Output:-
+10
+29
+
