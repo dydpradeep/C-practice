@@ -1,0 +1,64 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int max(int num1,int num2);
+
+int main()
+{
+    printf("%d",max(10,4));
+    return 0;
+}
+
+int max(int num1,int num2,){
+    int result;
+    if(num1 > num2){
+        result=num1;
+    }
+    else{
+        result=num2;
+    }
+    return result;
+    
+}
+
+Output:-
+10
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int max(int num1,int num2,int num3);
+
+int main()
+{
+    printf("%d",max(10,4,50));
+    return 0;
+}
+
+int max(int num1,int num2,int num3){
+    int result;
+    if(num1 >= num2 && num1 >=num3){  //&& logical operater,it addds the another condision
+        result=num1;
+    }
+    else if(num2 >= num1 && num2 >=num3){
+        result=num2;
+    }
+    else{
+        result=num3;
+    }
+    return result;
+    
+}
+
+Output:-
+50
+
+
+// || is a or operator
+// != is a not equal to
+// == is equal to
+// !(3>2) is a negiation operator,even it is True prints as False
+// !(3<2) is a negiation operator,even it is False prints as True
