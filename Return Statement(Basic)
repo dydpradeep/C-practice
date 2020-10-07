@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+double cube(double num);
+int main()
+{
+    printf("The cube of the number is %f",cube(2));
+    return 0;
+}
+
+double cube(double num)
+{
+    return num*num*num;
+    //thier is no use of writing code after return statement
+}
+
+Output:-
+The cube of the number is 8.000000
+
