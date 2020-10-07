@@ -28,3 +28,10 @@ int main()
 
     return 0;
 }
+
+Output:-
+Enter the number: 23
+Enter operator: +
+Enter the number: 7
+30.000000
+
