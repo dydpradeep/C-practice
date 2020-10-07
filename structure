@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+struct Mobile{
+    char name[50];
+    char software[20];
+    double screensize;
+    double price;
+};
+
+int main()
+{
+    struct Mobile one;//one is a container that you can customize as you can
+    strcpy(one.name,"Iphone11");//for string you need to call following function "strcp"y
+    strcpy(one.software,"ios");
+    one.screensize=5;
+    one.price=100000;
+    
+    printf("Rs= %f",one.price);
+    return 0;
+}
+
+Output:-
+Rs= 100000.000000
