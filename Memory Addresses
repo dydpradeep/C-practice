@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int age=30;
+    double gpa=9.8;
+    char grade='A';
+    printf("age=%p\ngpa=%p\ngrade=%p",&age,&gpa,&grade);
+    return 0;
+}
+
+Output:-
+age=0x7ffe1f366fd4
+gpa=0x7ffe1f366fd8
+grade=0x7ffe1f366fd3
